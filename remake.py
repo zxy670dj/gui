@@ -17,6 +17,3 @@ def remake():
         
         with open(conf_path, 'w') as conf_file:
             json.dump(default_conf, conf_file, indent=4)
-
-    else:
-        print("Config file already exists. No need to remake.")
